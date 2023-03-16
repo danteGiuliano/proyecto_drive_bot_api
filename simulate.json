@@ -1,0 +1,2126 @@
+{
+    "compact": [
+        {
+            "id": 1,
+            "title": "Partes",
+            "type": "collapsable",
+            "icon": "feather:edit",
+            "link_root": "partes/",
+            "modules_id": null,
+            "created_at": "2023-02-23 06:26:18.024196",
+            "updated_at": "2023-02-23 06:26:18.024196",
+            "children": [
+                {
+                    "id": 2,
+                    "title": "Guías de Transporte",
+                    "type": "collapsable",
+                    "icon": "heroicons_outline:document-text",
+                    "link_root": "partes/guias-transporte/",
+                    "modules_id": 1,
+                    "created_at": "2023-02-23 07:14:57.666493",
+                    "updated_at": "2023-02-23 07:14:57.666493",
+                    "children": [
+                        {
+                            "id": 7,
+                            "title": "Configuración",
+                            "type": "basic",
+                            "icon": "mat_outline:build",
+                            "link": "partes/guias-transporte/configuracion",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 8,
+                            "title": "Empresas receptoras",
+                            "type": "basic",
+                            "icon": "heroicons_outline:inbox-in",
+                            "link": "partes/guias-transporte/receptoras",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 9,
+                            "title": "Empresas transporte",
+                            "type": "basic",
+                            "icon": "feather:truck",
+                            "link": "partes/guias-transporte/transportes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 10,
+                            "title": "Guías de transporte",
+                            "type": "basic",
+                            "icon": "mat_outline:airplane_ticket",
+                            "link": "partes/guias-transporte/guias",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 11,
+                            "title": "Origenes",
+                            "type": "basic",
+                            "icon": "heroicons_outline:map",
+                            "link": "partes/guias-transporte/origenes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 12,
+                            "title": "Destinos",
+                            "type": "basic",
+                            "icon": "heroicons_outline:flag",
+                            "link": "partes/guias-transporte/destinos",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 13,
+                            "title": "Unidades de medida",
+                            "type": "basic",
+                            "icon": "mat_outline:align_vertical_bottom",
+                            "link": "partes/guias-transporte/unidades",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Ambiente",
+            "type": "collapsable",
+            "icon": "mat_outline:nature_people",
+            "link_root": "ambiente/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 14,
+                    "title": "Nombres Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/instalaciones",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 15,
+                    "title": "Tipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/tipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 16,
+                    "title": "Subtipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/subtipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 17,
+                    "title": "Incidentes",
+                    "type": "basic",
+                    "icon": "feather:alert-triangle",
+                    "link": "ambiente/incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 18,
+                    "title": "Tipo Incidentes",
+                    "type": "basic",
+                    "icon": "heroicons_outline:question-mark-circle",
+                    "link": "ambiente/tipo-incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 19,
+                    "title": "Eventos Causantes",
+                    "type": "basic",
+                    "icon": "mat_outline:event_note",
+                    "link": "ambiente/eventos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 20,
+                    "title": "Comunicar Emergencias",
+                    "type": "basic",
+                    "icon": "mat_outline:emergency",
+                    "link": "ambiente/emergencias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 21,
+                    "title": "Organismos",
+                    "type": "basic",
+                    "icon": "mat_outline:mediation",
+                    "link": "ambiente/organismos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Pagos",
+            "type": "collapsable",
+            "icon": "mat_outline:attach_money",
+            "link_root": "pagos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 22,
+                    "title": "Pagos",
+                    "type": "basic",
+                    "icon": "mat_outline:payments",
+                    "link": "pagos/pagos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 23,
+                    "title": "Conceptos",
+                    "type": "basic",
+                    "icon": "heroicons_solid:collection",
+                    "link": "pagos/conceptos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 24,
+                    "title": "Bancos",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/bancos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 25,
+                    "title": "Sucursales",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/sucursales",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 26,
+                    "title": "Cuentas",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/cuentas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Entregas",
+            "type": "collapsable",
+            "icon": "feather:send",
+            "link_root": "entregas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 27,
+                    "title": "Petroleo",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "entregas/petroleo",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 28,
+                    "title": "Gas",
+                    "type": "basic",
+                    "icon": "feather:cloud",
+                    "link": "entregas/gas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 29,
+                    "title": "GLP",
+                    "type": "basic",
+                    "icon": "mat_outline:fireplace",
+                    "link": "entregas/glp",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Contratos",
+            "type": "collapsable",
+            "icon": "feather:circle",
+            "link_root": "contratos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 30,
+                    "title": "Instrumentos legales",
+                    "type": "basic",
+                    "icon": "heroicons_outline:lock-closed",
+                    "link": "contratos/instrumento-legal",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                },
+                {
+                    "id": 31,
+                    "title": "Contratos",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "contratos/contratos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Inspecciones",
+            "type": "collapsable",
+            "icon": "feather:eye",
+            "link_root": "inspecciones/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 32,
+                    "title": "Informes",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "inspecciones/informes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 7
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Seguridad",
+            "type": "collapsable",
+            "icon": "mat_outline:security",
+            "link_root": "seguridad/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 33,
+                    "title": "Usuarios",
+                    "type": "basic",
+                    "icon": "feather:users",
+                    "link": "seguridad/usuarios",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 8
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Recursos",
+            "type": "collapsable",
+            "icon": "heroicons_solid:cube-transparent",
+            "link_root": "recursos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 34,
+                    "title": "Cuencas",
+                    "type": "basic",
+                    "icon": "mat_outline:filter_hdr",
+                    "link": "recursos/cuencas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 35,
+                    "title": "Areas",
+                    "type": "basic",
+                    "icon": "mat_outline:room",
+                    "link": "recursos/areas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 36,
+                    "title": "Yacimientos",
+                    "type": "basic",
+                    "icon": "mat_outline:data_exploration",
+                    "link": "recursos/yacimientos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Localidades",
+            "type": "collapsable",
+            "icon": "location_city",
+            "link_root": "localidades/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 37,
+                    "title": "Paises",
+                    "type": "basic",
+                    "icon": "feathers:users",
+                    "link": "localidades/paises",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 38,
+                    "title": "Provincias",
+                    "type": "basic",
+                    "icon": "add_location_alt",
+                    "link": "localidades/provincias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 39,
+                    "title": "Localidades",
+                    "type": "basic",
+                    "icon": "add_location",
+                    "link": "localidades/localidades",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Empresas",
+            "type": "collapsable",
+            "icon": "home_work",
+            "link_root": "empresas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 40,
+                    "title": "Empresas",
+                    "type": "basic",
+                    "icon": "work",
+                    "link": "empresas/empresas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 11
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Explotacion",
+            "type": "collapsable",
+            "icon": "mat_outline:light_mode",
+            "link_root": "explotacion/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 41,
+                    "title": "Reservas",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "explotacion/reservas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 12
+                }
+            ]
+        }
+    ],
+    "default": [
+        {
+            "id": 1,
+            "title": "Partes",
+            "type": "collapsable",
+            "icon": "feather:edit",
+            "link_root": "partes/",
+            "modules_id": null,
+            "created_at": "2023-02-23 06:26:18.024196",
+            "updated_at": "2023-02-23 06:26:18.024196",
+            "children": [
+                {
+                    "id": 2,
+                    "title": "Guías de Transporte",
+                    "type": "collapsable",
+                    "icon": "heroicons_outline:document-text",
+                    "link_root": "partes/guias-transporte/",
+                    "modules_id": 1,
+                    "created_at": "2023-02-23 07:14:57.666493",
+                    "updated_at": "2023-02-23 07:14:57.666493",
+                    "children": [
+                        {
+                            "id": 7,
+                            "title": "Configuración",
+                            "type": "basic",
+                            "icon": "mat_outline:build",
+                            "link": "partes/guias-transporte/configuracion",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 8,
+                            "title": "Empresas receptoras",
+                            "type": "basic",
+                            "icon": "heroicons_outline:inbox-in",
+                            "link": "partes/guias-transporte/receptoras",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 9,
+                            "title": "Empresas transporte",
+                            "type": "basic",
+                            "icon": "feather:truck",
+                            "link": "partes/guias-transporte/transportes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 10,
+                            "title": "Guías de transporte",
+                            "type": "basic",
+                            "icon": "mat_outline:airplane_ticket",
+                            "link": "partes/guias-transporte/guias",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 11,
+                            "title": "Origenes",
+                            "type": "basic",
+                            "icon": "heroicons_outline:map",
+                            "link": "partes/guias-transporte/origenes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 12,
+                            "title": "Destinos",
+                            "type": "basic",
+                            "icon": "heroicons_outline:flag",
+                            "link": "partes/guias-transporte/destinos",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 13,
+                            "title": "Unidades de medida",
+                            "type": "basic",
+                            "icon": "mat_outline:align_vertical_bottom",
+                            "link": "partes/guias-transporte/unidades",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Ambiente",
+            "type": "collapsable",
+            "icon": "mat_outline:nature_people",
+            "link_root": "ambiente/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 14,
+                    "title": "Nombres Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/instalaciones",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 15,
+                    "title": "Tipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/tipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 16,
+                    "title": "Subtipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/subtipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 17,
+                    "title": "Incidentes",
+                    "type": "basic",
+                    "icon": "feather:alert-triangle",
+                    "link": "ambiente/incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 18,
+                    "title": "Tipo Incidentes",
+                    "type": "basic",
+                    "icon": "heroicons_outline:question-mark-circle",
+                    "link": "ambiente/tipo-incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 19,
+                    "title": "Eventos Causantes",
+                    "type": "basic",
+                    "icon": "mat_outline:event_note",
+                    "link": "ambiente/eventos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 20,
+                    "title": "Comunicar Emergencias",
+                    "type": "basic",
+                    "icon": "mat_outline:emergency",
+                    "link": "ambiente/emergencias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 21,
+                    "title": "Organismos",
+                    "type": "basic",
+                    "icon": "mat_outline:mediation",
+                    "link": "ambiente/organismos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Pagos",
+            "type": "collapsable",
+            "icon": "mat_outline:attach_money",
+            "link_root": "pagos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 22,
+                    "title": "Pagos",
+                    "type": "basic",
+                    "icon": "mat_outline:payments",
+                    "link": "pagos/pagos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 23,
+                    "title": "Conceptos",
+                    "type": "basic",
+                    "icon": "heroicons_solid:collection",
+                    "link": "pagos/conceptos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 24,
+                    "title": "Bancos",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/bancos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 25,
+                    "title": "Sucursales",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/sucursales",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 26,
+                    "title": "Cuentas",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/cuentas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Entregas",
+            "type": "collapsable",
+            "icon": "feather:send",
+            "link_root": "entregas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 27,
+                    "title": "Petroleo",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "entregas/petroleo",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 28,
+                    "title": "Gas",
+                    "type": "basic",
+                    "icon": "feather:cloud",
+                    "link": "entregas/gas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 29,
+                    "title": "GLP",
+                    "type": "basic",
+                    "icon": "mat_outline:fireplace",
+                    "link": "entregas/glp",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Contratos",
+            "type": "collapsable",
+            "icon": "feather:circle",
+            "link_root": "contratos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 30,
+                    "title": "Instrumentos legales",
+                    "type": "basic",
+                    "icon": "heroicons_outline:lock-closed",
+                    "link": "contratos/instrumento-legal",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                },
+                {
+                    "id": 31,
+                    "title": "Contratos",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "contratos/contratos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Inspecciones",
+            "type": "collapsable",
+            "icon": "feather:eye",
+            "link_root": "inspecciones/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 32,
+                    "title": "Informes",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "inspecciones/informes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 7
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Seguridad",
+            "type": "collapsable",
+            "icon": "mat_outline:security",
+            "link_root": "seguridad/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 33,
+                    "title": "Usuarios",
+                    "type": "basic",
+                    "icon": "feather:users",
+                    "link": "seguridad/usuarios",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 8
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Recursos",
+            "type": "collapsable",
+            "icon": "heroicons_solid:cube-transparent",
+            "link_root": "recursos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 34,
+                    "title": "Cuencas",
+                    "type": "basic",
+                    "icon": "mat_outline:filter_hdr",
+                    "link": "recursos/cuencas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 35,
+                    "title": "Areas",
+                    "type": "basic",
+                    "icon": "mat_outline:room",
+                    "link": "recursos/areas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 36,
+                    "title": "Yacimientos",
+                    "type": "basic",
+                    "icon": "mat_outline:data_exploration",
+                    "link": "recursos/yacimientos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Localidades",
+            "type": "collapsable",
+            "icon": "location_city",
+            "link_root": "localidades/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 37,
+                    "title": "Paises",
+                    "type": "basic",
+                    "icon": "feathers:users",
+                    "link": "localidades/paises",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 38,
+                    "title": "Provincias",
+                    "type": "basic",
+                    "icon": "add_location_alt",
+                    "link": "localidades/provincias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 39,
+                    "title": "Localidades",
+                    "type": "basic",
+                    "icon": "add_location",
+                    "link": "localidades/localidades",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Empresas",
+            "type": "collapsable",
+            "icon": "home_work",
+            "link_root": "empresas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 40,
+                    "title": "Empresas",
+                    "type": "basic",
+                    "icon": "work",
+                    "link": "empresas/empresas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 11
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Explotacion",
+            "type": "collapsable",
+            "icon": "mat_outline:light_mode",
+            "link_root": "explotacion/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 41,
+                    "title": "Reservas",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "explotacion/reservas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 12
+                }
+            ]
+        }
+    ],
+    "futuristic": [
+        {
+            "id": 1,
+            "title": "Partes",
+            "type": "collapsable",
+            "icon": "feather:edit",
+            "link_root": "partes/",
+            "modules_id": null,
+            "created_at": "2023-02-23 06:26:18.024196",
+            "updated_at": "2023-02-23 06:26:18.024196",
+            "children": [
+                {
+                    "id": 2,
+                    "title": "Guías de Transporte",
+                    "type": "collapsable",
+                    "icon": "heroicons_outline:document-text",
+                    "link_root": "partes/guias-transporte/",
+                    "modules_id": 1,
+                    "created_at": "2023-02-23 07:14:57.666493",
+                    "updated_at": "2023-02-23 07:14:57.666493",
+                    "children": [
+                        {
+                            "id": 7,
+                            "title": "Configuración",
+                            "type": "basic",
+                            "icon": "mat_outline:build",
+                            "link": "partes/guias-transporte/configuracion",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 8,
+                            "title": "Empresas receptoras",
+                            "type": "basic",
+                            "icon": "heroicons_outline:inbox-in",
+                            "link": "partes/guias-transporte/receptoras",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 9,
+                            "title": "Empresas transporte",
+                            "type": "basic",
+                            "icon": "feather:truck",
+                            "link": "partes/guias-transporte/transportes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 10,
+                            "title": "Guías de transporte",
+                            "type": "basic",
+                            "icon": "mat_outline:airplane_ticket",
+                            "link": "partes/guias-transporte/guias",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 11,
+                            "title": "Origenes",
+                            "type": "basic",
+                            "icon": "heroicons_outline:map",
+                            "link": "partes/guias-transporte/origenes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 12,
+                            "title": "Destinos",
+                            "type": "basic",
+                            "icon": "heroicons_outline:flag",
+                            "link": "partes/guias-transporte/destinos",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 13,
+                            "title": "Unidades de medida",
+                            "type": "basic",
+                            "icon": "mat_outline:align_vertical_bottom",
+                            "link": "partes/guias-transporte/unidades",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Ambiente",
+            "type": "collapsable",
+            "icon": "mat_outline:nature_people",
+            "link_root": "ambiente/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 14,
+                    "title": "Nombres Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/instalaciones",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 15,
+                    "title": "Tipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/tipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 16,
+                    "title": "Subtipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/subtipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 17,
+                    "title": "Incidentes",
+                    "type": "basic",
+                    "icon": "feather:alert-triangle",
+                    "link": "ambiente/incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 18,
+                    "title": "Tipo Incidentes",
+                    "type": "basic",
+                    "icon": "heroicons_outline:question-mark-circle",
+                    "link": "ambiente/tipo-incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 19,
+                    "title": "Eventos Causantes",
+                    "type": "basic",
+                    "icon": "mat_outline:event_note",
+                    "link": "ambiente/eventos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 20,
+                    "title": "Comunicar Emergencias",
+                    "type": "basic",
+                    "icon": "mat_outline:emergency",
+                    "link": "ambiente/emergencias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 21,
+                    "title": "Organismos",
+                    "type": "basic",
+                    "icon": "mat_outline:mediation",
+                    "link": "ambiente/organismos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Pagos",
+            "type": "collapsable",
+            "icon": "mat_outline:attach_money",
+            "link_root": "pagos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 22,
+                    "title": "Pagos",
+                    "type": "basic",
+                    "icon": "mat_outline:payments",
+                    "link": "pagos/pagos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 23,
+                    "title": "Conceptos",
+                    "type": "basic",
+                    "icon": "heroicons_solid:collection",
+                    "link": "pagos/conceptos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 24,
+                    "title": "Bancos",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/bancos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 25,
+                    "title": "Sucursales",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/sucursales",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 26,
+                    "title": "Cuentas",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/cuentas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Entregas",
+            "type": "collapsable",
+            "icon": "feather:send",
+            "link_root": "entregas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 27,
+                    "title": "Petroleo",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "entregas/petroleo",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 28,
+                    "title": "Gas",
+                    "type": "basic",
+                    "icon": "feather:cloud",
+                    "link": "entregas/gas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 29,
+                    "title": "GLP",
+                    "type": "basic",
+                    "icon": "mat_outline:fireplace",
+                    "link": "entregas/glp",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Contratos",
+            "type": "collapsable",
+            "icon": "feather:circle",
+            "link_root": "contratos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 30,
+                    "title": "Instrumentos legales",
+                    "type": "basic",
+                    "icon": "heroicons_outline:lock-closed",
+                    "link": "contratos/instrumento-legal",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                },
+                {
+                    "id": 31,
+                    "title": "Contratos",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "contratos/contratos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Inspecciones",
+            "type": "collapsable",
+            "icon": "feather:eye",
+            "link_root": "inspecciones/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 32,
+                    "title": "Informes",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "inspecciones/informes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 7
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Seguridad",
+            "type": "collapsable",
+            "icon": "mat_outline:security",
+            "link_root": "seguridad/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 33,
+                    "title": "Usuarios",
+                    "type": "basic",
+                    "icon": "feather:users",
+                    "link": "seguridad/usuarios",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 8
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Recursos",
+            "type": "collapsable",
+            "icon": "heroicons_solid:cube-transparent",
+            "link_root": "recursos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 34,
+                    "title": "Cuencas",
+                    "type": "basic",
+                    "icon": "mat_outline:filter_hdr",
+                    "link": "recursos/cuencas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 35,
+                    "title": "Areas",
+                    "type": "basic",
+                    "icon": "mat_outline:room",
+                    "link": "recursos/areas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 36,
+                    "title": "Yacimientos",
+                    "type": "basic",
+                    "icon": "mat_outline:data_exploration",
+                    "link": "recursos/yacimientos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Localidades",
+            "type": "collapsable",
+            "icon": "location_city",
+            "link_root": "localidades/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 37,
+                    "title": "Paises",
+                    "type": "basic",
+                    "icon": "feathers:users",
+                    "link": "localidades/paises",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 38,
+                    "title": "Provincias",
+                    "type": "basic",
+                    "icon": "add_location_alt",
+                    "link": "localidades/provincias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 39,
+                    "title": "Localidades",
+                    "type": "basic",
+                    "icon": "add_location",
+                    "link": "localidades/localidades",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Empresas",
+            "type": "collapsable",
+            "icon": "home_work",
+            "link_root": "empresas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 40,
+                    "title": "Empresas",
+                    "type": "basic",
+                    "icon": "work",
+                    "link": "empresas/empresas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 11
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Explotacion",
+            "type": "collapsable",
+            "icon": "mat_outline:light_mode",
+            "link_root": "explotacion/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 41,
+                    "title": "Reservas",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "explotacion/reservas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 12
+                }
+            ]
+        }
+    ],
+    "horizontal": [
+        {
+            "id": 1,
+            "title": "Partes",
+            "type": "collapsable",
+            "icon": "feather:edit",
+            "link_root": "partes/",
+            "modules_id": null,
+            "created_at": "2023-02-23 06:26:18.024196",
+            "updated_at": "2023-02-23 06:26:18.024196",
+            "children": [
+                {
+                    "id": 2,
+                    "title": "Guías de Transporte",
+                    "type": "collapsable",
+                    "icon": "heroicons_outline:document-text",
+                    "link_root": "partes/guias-transporte/",
+                    "modules_id": 1,
+                    "created_at": "2023-02-23 07:14:57.666493",
+                    "updated_at": "2023-02-23 07:14:57.666493",
+                    "children": [
+                        {
+                            "id": 7,
+                            "title": "Configuración",
+                            "type": "basic",
+                            "icon": "mat_outline:build",
+                            "link": "partes/guias-transporte/configuracion",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 8,
+                            "title": "Empresas receptoras",
+                            "type": "basic",
+                            "icon": "heroicons_outline:inbox-in",
+                            "link": "partes/guias-transporte/receptoras",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 9,
+                            "title": "Empresas transporte",
+                            "type": "basic",
+                            "icon": "feather:truck",
+                            "link": "partes/guias-transporte/transportes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 10,
+                            "title": "Guías de transporte",
+                            "type": "basic",
+                            "icon": "mat_outline:airplane_ticket",
+                            "link": "partes/guias-transporte/guias",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 11,
+                            "title": "Origenes",
+                            "type": "basic",
+                            "icon": "heroicons_outline:map",
+                            "link": "partes/guias-transporte/origenes",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 12,
+                            "title": "Destinos",
+                            "type": "basic",
+                            "icon": "heroicons_outline:flag",
+                            "link": "partes/guias-transporte/destinos",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        },
+                        {
+                            "id": 13,
+                            "title": "Unidades de medida",
+                            "type": "basic",
+                            "icon": "mat_outline:align_vertical_bottom",
+                            "link": "partes/guias-transporte/unidades",
+                            "created_at": "2023-02-23 08:41:59.259961",
+                            "updated_at": "2023-02-23 08:41:59.259961",
+                            "visible": true,
+                            "modules_id": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Ambiente",
+            "type": "collapsable",
+            "icon": "mat_outline:nature_people",
+            "link_root": "ambiente/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 14,
+                    "title": "Nombres Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/instalaciones",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 15,
+                    "title": "Tipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/tipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 16,
+                    "title": "Subtipo Instalaciones",
+                    "type": "basic",
+                    "icon": "heroicons_outline:office-building",
+                    "link": "ambiente/subtipos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 17,
+                    "title": "Incidentes",
+                    "type": "basic",
+                    "icon": "feather:alert-triangle",
+                    "link": "ambiente/incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 18,
+                    "title": "Tipo Incidentes",
+                    "type": "basic",
+                    "icon": "heroicons_outline:question-mark-circle",
+                    "link": "ambiente/tipo-incidentes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 19,
+                    "title": "Eventos Causantes",
+                    "type": "basic",
+                    "icon": "mat_outline:event_note",
+                    "link": "ambiente/eventos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 20,
+                    "title": "Comunicar Emergencias",
+                    "type": "basic",
+                    "icon": "mat_outline:emergency",
+                    "link": "ambiente/emergencias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                },
+                {
+                    "id": 21,
+                    "title": "Organismos",
+                    "type": "basic",
+                    "icon": "mat_outline:mediation",
+                    "link": "ambiente/organismos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Pagos",
+            "type": "collapsable",
+            "icon": "mat_outline:attach_money",
+            "link_root": "pagos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 22,
+                    "title": "Pagos",
+                    "type": "basic",
+                    "icon": "mat_outline:payments",
+                    "link": "pagos/pagos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 23,
+                    "title": "Conceptos",
+                    "type": "basic",
+                    "icon": "heroicons_solid:collection",
+                    "link": "pagos/conceptos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 24,
+                    "title": "Bancos",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/bancos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 25,
+                    "title": "Sucursales",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/sucursales",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                },
+                {
+                    "id": 26,
+                    "title": "Cuentas",
+                    "type": "basic",
+                    "icon": "mat_outline:account_balance",
+                    "link": "pagos/cuentas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Entregas",
+            "type": "collapsable",
+            "icon": "feather:send",
+            "link_root": "entregas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 27,
+                    "title": "Petroleo",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "entregas/petroleo",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 28,
+                    "title": "Gas",
+                    "type": "basic",
+                    "icon": "feather:cloud",
+                    "link": "entregas/gas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                },
+                {
+                    "id": 29,
+                    "title": "GLP",
+                    "type": "basic",
+                    "icon": "mat_outline:fireplace",
+                    "link": "entregas/glp",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Contratos",
+            "type": "collapsable",
+            "icon": "feather:circle",
+            "link_root": "contratos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 30,
+                    "title": "Instrumentos legales",
+                    "type": "basic",
+                    "icon": "heroicons_outline:lock-closed",
+                    "link": "contratos/instrumento-legal",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                },
+                {
+                    "id": 31,
+                    "title": "Contratos",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "contratos/contratos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 6
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Inspecciones",
+            "type": "collapsable",
+            "icon": "feather:eye",
+            "link_root": "inspecciones/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 32,
+                    "title": "Informes",
+                    "type": "basic",
+                    "icon": "feather:file-text",
+                    "link": "inspecciones/informes",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 7
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Seguridad",
+            "type": "collapsable",
+            "icon": "mat_outline:security",
+            "link_root": "seguridad/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 33,
+                    "title": "Usuarios",
+                    "type": "basic",
+                    "icon": "feather:users",
+                    "link": "seguridad/usuarios",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 8
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Recursos",
+            "type": "collapsable",
+            "icon": "heroicons_solid:cube-transparent",
+            "link_root": "recursos/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 34,
+                    "title": "Cuencas",
+                    "type": "basic",
+                    "icon": "mat_outline:filter_hdr",
+                    "link": "recursos/cuencas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 35,
+                    "title": "Areas",
+                    "type": "basic",
+                    "icon": "mat_outline:room",
+                    "link": "recursos/areas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                },
+                {
+                    "id": 36,
+                    "title": "Yacimientos",
+                    "type": "basic",
+                    "icon": "mat_outline:data_exploration",
+                    "link": "recursos/yacimientos",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 9
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Localidades",
+            "type": "collapsable",
+            "icon": "location_city",
+            "link_root": "localidades/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 37,
+                    "title": "Paises",
+                    "type": "basic",
+                    "icon": "feathers:users",
+                    "link": "localidades/paises",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 38,
+                    "title": "Provincias",
+                    "type": "basic",
+                    "icon": "add_location_alt",
+                    "link": "localidades/provincias",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                },
+                {
+                    "id": 39,
+                    "title": "Localidades",
+                    "type": "basic",
+                    "icon": "add_location",
+                    "link": "localidades/localidades",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 10
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Empresas",
+            "type": "collapsable",
+            "icon": "home_work",
+            "link_root": "empresas/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 40,
+                    "title": "Empresas",
+                    "type": "basic",
+                    "icon": "work",
+                    "link": "empresas/empresas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 11
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Explotacion",
+            "type": "collapsable",
+            "icon": "mat_outline:light_mode",
+            "link_root": "explotacion/",
+            "modules_id": null,
+            "created_at": "2023-02-23 07:14:57.666493",
+            "updated_at": "2023-02-23 07:14:57.666493",
+            "children": [
+                {
+                    "id": 41,
+                    "title": "Reservas",
+                    "type": "basic",
+                    "icon": "mat_outline:water_drop",
+                    "link": "explotacion/reservas",
+                    "created_at": "2023-02-23 08:41:59.259961",
+                    "updated_at": "2023-02-23 08:41:59.259961",
+                    "visible": true,
+                    "modules_id": 12
+                }
+            ]
+        }
+    ]
+}
